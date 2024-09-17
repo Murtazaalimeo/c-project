@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\My files\\WheelsWatchTech\\WheelsWatchTech\\WheelsWatchTech.csproj": {}
+  },
+  "projects": {
+    "C:\\My files\\WheelsWatchTech\\WheelsWatchTech\\WheelsWatchTech.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My files\\WheelsWatchTech\\WheelsWatchTech\\WheelsWatchTech.csproj",
+        "projectName": "WheelsWatchTech",
+        "projectPath": "C:\\My files\\WheelsWatchTech\\WheelsWatchTech\\WheelsWatchTech.csproj",
+        "packagesPath": "C:\\Users\\Super\\.nuget\\packages\\",
+        "outputPath": "C:\\My files\\WheelsWatchTech\\WheelsWatchTech\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Super\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "FireSharp": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Xceed.Document.NET": {
+              "target": "Package",
+              "version": "[3.0.23523.1209, )"
+            },
+            "Xceed.Words.NET": {
+              "target": "Package",
+              "version": "[3.0.23523.1209, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
